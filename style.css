@@ -1,0 +1,66 @@
+
+body {
+    background: linear-gradient(100deg, #a3e0ff 0,#BCA4D2 100%);
+    font-family: "Open Sans";
+    min-height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+h1 {
+    color: #fff;
+    font-size: 92px;
+    font-family: "ubuntu";
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Concert One", cursive;
+    background: linear-gradient(to right,#22384d 10%, #25abe8 50%, 
+    #301D42 60%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 1.5s linear infinite;
+    display: inline-block;
+    position: absolute;
+    font-style: oblique;
+    top:60px;
+	text-align: center; 
+}
+
+
+.clock {
+    background: #333333;
+    width: 600px;
+    padding: 40px;
+    text-align: center;
+    text-align: center;
+    border-radius: 10px;
+    margin:100px auto 60px;
+	position:relative;
+}
+  
+
+.clock-time, .clock-ampm {
+    font-family: "Concert One", cursive;
+    font-size: 100px;
+    color: #eeeeee;
+    font-style: oblique;
+}
+  
+
+.clock-time {
+    font-size: 100px;
+}
+ 
+
+@keyframes textclip {
+	to {
+		background-position: 200% center;
+	}
+}
